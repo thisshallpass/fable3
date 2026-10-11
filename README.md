@@ -5,7 +5,7 @@ Twenty simulation practicals (Q1-Q20) for Arduino UNO in Tinkercad Circuits. Eac
 ## Repository layout
 
 ```
-Digital_Electronics_Practicals/
+godwiththorns/
 ├── code/        20 Arduino sketches, one per question (.ino)
 ├── circuits/    20 wiring diagrams, one per question (.png)
 └── .vscode/     VS Code tasks to compile the sketches with arduino-cli
@@ -17,26 +17,26 @@ draw_circuits.py script that generates the diagrams from the pin map
 
 | Q | Title | Hardware | Behaviour |
 |---|-------|----------|-----------|
-| 1 | [Automatic Corridor Light](Digital_Electronics_Practicals/code/Q01_Automatic_Corridor_Light.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q01_Automatic_Corridor_Light.png) | LED | ON 2 s, OFF 1 s, repeating |
-| 2 | [Emergency Warning Indicator](Digital_Electronics_Practicals/code/Q02_Emergency_Warning_Indicator.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q02_Emergency_Warning_Indicator.png) | LED | One blink cycle per 500 ms, double-flash strobe pattern |
-| 3 | [Railway Platform Indicator](Digital_Electronics_Practicals/code/Q03_Railway_Platform_Indicator.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q03_Railway_Platform_Indicator.png) | LED | Three quick flashes, then a 2 s pause |
-| 4 | [Classroom Light Control](Digital_Electronics_Practicals/code/Q04_Classroom_Light_Control.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q04_Classroom_Light_Control.png) | LED, push button | LED ON while the button is pressed |
-| 5 | [Security Door Indicator](Digital_Electronics_Practicals/code/Q05_Security_Door_Indicator.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q05_Security_Door_Indicator.png) | LED, push button | Switch active = door open = LED ON |
-| 6 | [Toggle-Based Lamp Control](Digital_Electronics_Practicals/code/Q06_Toggle_Based_Lamp_Control.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q06_Toggle_Based_Lamp_Control.png) | LED, push button | Each press toggles the LED (debounced) |
-| 7 | [Traffic Signal Status Indicator](Digital_Electronics_Practicals/code/Q07_Traffic_Signal_Status_Indicator.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q07_Traffic_Signal_Status_Indicator.png) | RGB LED | Red STOP, green GO, blue WAIT |
-| 8 | [Mood Lighting System](Digital_Electronics_Practicals/code/Q08_Mood_Lighting_System.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q08_Mood_Lighting_System.png) | RGB LED | Cycles six colours, 1 s each |
-| 9 | [Variable Brightness Controller](Digital_Electronics_Practicals/code/Q09_Variable_Brightness_Controller.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q09_Variable_Brightness_Controller.png) | Potentiometer, LED | PWM brightness follows the pot |
-| 10 | [Over-Voltage Warning System](Digital_Electronics_Practicals/code/Q10_Over_Voltage_Warning_System.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q10_Over_Voltage_Warning_System.png) | Potentiometer, LED | LED ON above 2.5 V |
-| 11 | [Three-Level Voltage Indicator](Digital_Electronics_Practicals/code/Q11_Three_Level_Voltage_Indicator.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q11_Three_Level_Voltage_Indicator.png) | Potentiometer, 3 LEDs | Green below 1.5 V, yellow 1.5-3.5 V, red above 3.5 V |
-| 12 | [Student Identification Display](Digital_Electronics_Practicals/code/Q12_Student_Identification_Display.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q12_Student_Identification_Display.png) | 16x2 LCD | Name on line 1, roll number on line 2 |
-| 13 | [Digital Welcome System](Digital_Electronics_Practicals/code/Q13_Digital_Welcome_System.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q13_Digital_Welcome_System.png) | 16x2 LCD | Welcome message, then name and roll number after 3 s |
-| 14 | [Mini Information Display](Digital_Electronics_Practicals/code/Q14_Mini_Information_Display.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q14_Mini_Information_Display.png) | 16x2 LCD | College, name, roll number, practical number, 2 s each |
-| 15 | [Smart Parking Alert](Digital_Electronics_Practicals/code/Q15_Smart_Parking_Alert.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q15_Smart_Parking_Alert.png) | HC-SR04, buzzer | Off above 50 cm, slow beep 20-50 cm, rapid beep below 20 cm |
-| 16 | [Obstacle Detection System](Digital_Electronics_Practicals/code/Q16_Obstacle_Detection_System.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q16_Obstacle_Detection_System.png) | HC-SR04, buzzer | Buzzer ON within 15 cm |
-| 17 | [Water Tank Level Warning](Digital_Electronics_Practicals/code/Q17_Water_Tank_Level_Warning.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q17_Water_Tank_Level_Warning.png) | HC-SR04, buzzer | Buzzer ON below 10 cm |
-| 18 | [Motion-Based Security Alarm](Digital_Electronics_Practicals/code/Q18_Motion_Based_Security_Alarm.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q18_Motion_Based_Security_Alarm.png) | PIR, buzzer | Buzzer ON for 5 s on motion |
-| 19 | [Smart Entry Alert](Digital_Electronics_Practicals/code/Q19_Smart_Entry_Alert.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q19_Smart_Entry_Alert.png) | PIR, buzzer, LED | LED and buzzer ON while motion is detected |
-| 20 | [Temperature Monitoring System](Digital_Electronics_Practicals/code/Q20_Temperature_Monitoring_System.ino) · [circuit](Digital_Electronics_Practicals/circuits/Q20_Temperature_Monitoring_System.png) | TMP36 | Serial output in °C, alert above 35 °C |
+| 1 | [Automatic Corridor Light](godwiththorns/code/Q01_Automatic_Corridor_Light.ino) · [circuit](godwiththorns/circuits/Q01_Automatic_Corridor_Light.png) | LED | ON 2 s, OFF 1 s, repeating |
+| 2 | [Emergency Warning Indicator](godwiththorns/code/Q02_Emergency_Warning_Indicator.ino) · [circuit](godwiththorns/circuits/Q02_Emergency_Warning_Indicator.png) | LED | One blink cycle per 500 ms, double-flash strobe pattern |
+| 3 | [Railway Platform Indicator](godwiththorns/code/Q03_Railway_Platform_Indicator.ino) · [circuit](godwiththorns/circuits/Q03_Railway_Platform_Indicator.png) | LED | Three quick flashes, then a 2 s pause |
+| 4 | [Classroom Light Control](godwiththorns/code/Q04_Classroom_Light_Control.ino) · [circuit](godwiththorns/circuits/Q04_Classroom_Light_Control.png) | LED, push button | LED ON while the button is pressed |
+| 5 | [Security Door Indicator](godwiththorns/code/Q05_Security_Door_Indicator.ino) · [circuit](godwiththorns/circuits/Q05_Security_Door_Indicator.png) | LED, push button | Switch active = door open = LED ON |
+| 6 | [Toggle-Based Lamp Control](godwiththorns/code/Q06_Toggle_Based_Lamp_Control.ino) · [circuit](godwiththorns/circuits/Q06_Toggle_Based_Lamp_Control.png) | LED, push button | Each press toggles the LED (debounced) |
+| 7 | [Traffic Signal Status Indicator](godwiththorns/code/Q07_Traffic_Signal_Status_Indicator.ino) · [circuit](godwiththorns/circuits/Q07_Traffic_Signal_Status_Indicator.png) | RGB LED | Red STOP, green GO, blue WAIT |
+| 8 | [Mood Lighting System](godwiththorns/code/Q08_Mood_Lighting_System.ino) · [circuit](godwiththorns/circuits/Q08_Mood_Lighting_System.png) | RGB LED | Cycles six colours, 1 s each |
+| 9 | [Variable Brightness Controller](godwiththorns/code/Q09_Variable_Brightness_Controller.ino) · [circuit](godwiththorns/circuits/Q09_Variable_Brightness_Controller.png) | Potentiometer, LED | PWM brightness follows the pot |
+| 10 | [Over-Voltage Warning System](godwiththorns/code/Q10_Over_Voltage_Warning_System.ino) · [circuit](godwiththorns/circuits/Q10_Over_Voltage_Warning_System.png) | Potentiometer, LED | LED ON above 2.5 V |
+| 11 | [Three-Level Voltage Indicator](godwiththorns/code/Q11_Three_Level_Voltage_Indicator.ino) · [circuit](godwiththorns/circuits/Q11_Three_Level_Voltage_Indicator.png) | Potentiometer, 3 LEDs | Green below 1.5 V, yellow 1.5-3.5 V, red above 3.5 V |
+| 12 | [Student Identification Display](godwiththorns/code/Q12_Student_Identification_Display.ino) · [circuit](godwiththorns/circuits/Q12_Student_Identification_Display.png) | 16x2 LCD | Name on line 1, roll number on line 2 |
+| 13 | [Digital Welcome System](godwiththorns/code/Q13_Digital_Welcome_System.ino) · [circuit](godwiththorns/circuits/Q13_Digital_Welcome_System.png) | 16x2 LCD | Welcome message, then name and roll number after 3 s |
+| 14 | [Mini Information Display](godwiththorns/code/Q14_Mini_Information_Display.ino) · [circuit](godwiththorns/circuits/Q14_Mini_Information_Display.png) | 16x2 LCD | College, name, roll number, practical number, 2 s each |
+| 15 | [Smart Parking Alert](godwiththorns/code/Q15_Smart_Parking_Alert.ino) · [circuit](godwiththorns/circuits/Q15_Smart_Parking_Alert.png) | HC-SR04, buzzer | Off above 50 cm, slow beep 20-50 cm, rapid beep below 20 cm |
+| 16 | [Obstacle Detection System](godwiththorns/code/Q16_Obstacle_Detection_System.ino) · [circuit](godwiththorns/circuits/Q16_Obstacle_Detection_System.png) | HC-SR04, buzzer | Buzzer ON within 15 cm |
+| 17 | [Water Tank Level Warning](godwiththorns/code/Q17_Water_Tank_Level_Warning.ino) · [circuit](godwiththorns/circuits/Q17_Water_Tank_Level_Warning.png) | HC-SR04, buzzer | Buzzer ON below 10 cm |
+| 18 | [Motion-Based Security Alarm](godwiththorns/code/Q18_Motion_Based_Security_Alarm.ino) · [circuit](godwiththorns/circuits/Q18_Motion_Based_Security_Alarm.png) | PIR, buzzer | Buzzer ON for 5 s on motion |
+| 19 | [Smart Entry Alert](godwiththorns/code/Q19_Smart_Entry_Alert.ino) · [circuit](godwiththorns/circuits/Q19_Smart_Entry_Alert.png) | PIR, buzzer, LED | LED and buzzer ON while motion is detected |
+| 20 | [Temperature Monitoring System](godwiththorns/code/Q20_Temperature_Monitoring_System.ino) · [circuit](godwiththorns/circuits/Q20_Temperature_Monitoring_System.png) | TMP36 | Serial output in °C, alert above 35 °C |
 
 ## Conventions
 
@@ -58,7 +58,7 @@ Before use, edit the placeholders at the top of Q12-Q14 (`STUDENT_NAME`, `ROLL_N
 
 ## Compiling locally (VS Code)
 
-Install [arduino-cli](https://arduino.github.io/arduino-cli/) with the `arduino:avr` core and the `LiquidCrystal` library, open the `Digital_Electronics_Practicals` folder in VS Code, and run the task **Arduino: Verify all 20 sketches** (or `Ctrl+Shift+B` to verify the open sketch).
+Install [arduino-cli](https://arduino.github.io/arduino-cli/) with the `arduino:avr` core and the `LiquidCrystal` library, open the `godwiththorns` folder in VS Code, and run the task **Arduino: Verify all 20 sketches** (or `Ctrl+Shift+B` to verify the open sketch).
 
 ## Assumptions
 
